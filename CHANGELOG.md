@@ -6,6 +6,8 @@ This is the log of notable changes to the Expo client that are developer-facing.
 
 ### 📚 3rd party library updates
 
+- Updated `@react-native-community/netinfo` from `4.6.0` to `5.5.0`. **Some deprecated methods have been removed in this version, so follow [NetInfo docs](https://github.com/react-native-community/react-native-netinfo) to upgrade.** ([#7095](https://github.com/expo/expo/pull/7095) by [@tsapeta](https://github.com/tsapeta))
+
 ### 🛠 Breaking changes
 
 - `expo-constants` `Constants.deviceName` now only returns the possible Browser name and doesn't fallback to engine or OS name. ([#6809](https://github.com/expo/expo/pull/6809) [@evanbacon](https://github.com/evanbacon))
